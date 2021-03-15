@@ -12,20 +12,3 @@ window.onscroll = function(ev) {
     }
 };
 
-// let recovery = document.querySelector('.recovery')
-// let repair = document.querySelector('.repairs')
-// let painting = document.querySelector('.painting')
-// let batteries = document.querySelector('.batteries')
-
-// recovery.addEventListener('mouseover', () =>{
-    
-// })
-// repair.addEventListener('mouseover', () =>{
-   
-// })
-// painting.addEventListener('mouseover', () =>{
-   
-// })
-// batteries.addEventListener('mouseover', () =>{
-    
-// })
