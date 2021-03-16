@@ -117,6 +117,10 @@ header {
 	background-color: white;
 }
 
+.services p{
+	font-size: 25px;
+}
+
 .grid-container {
 	display: grid;
 	margin-top: 10px;
@@ -199,4 +203,36 @@ input[type=text],[type=email], textarea {
 
   input[type=button]:hover{
 	background-color: rgba(11,60,93,0.8);
+  }
+
+  @media (max-width: 600px){
+
+	body{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.hero{
+		height: auto;
+	}
+
+	.services{
+		height: auto;
+	}
+
+	.contact{
+		height: auto;
+	}
+
+	.grid-container {
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(4, calc(50vh));
+	}
+	
+	.contact {
+		display: none;
+	}
+
+
+
   }
