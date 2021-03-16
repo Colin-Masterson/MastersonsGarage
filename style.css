@@ -236,6 +236,8 @@ input[type=text],[type=email], textarea {
 		font-size: 70px;
 	}
 
-
+	.nav{
+		display: none;
+	}
 
   }
