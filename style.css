@@ -226,7 +226,7 @@ input[type=text],[type=email], textarea {
 
 	.grid-container {
 		grid-template-columns: 1fr;
-		grid-template-rows: repeat(4, calc(50vh));
+		grid-template-rows: repeat(4, calc(50vh - 40px));
 	}
 	
 	.contact {
